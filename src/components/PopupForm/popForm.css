@@ -1,7 +1,7 @@
 .form-container {
   /* max-width: 450px; */
   width:42%;
-  height:100%;
+  /* height:100%; */
   margin: auto;
   background-color: white;
   position:fixed;
@@ -20,12 +20,39 @@
 
 /* get a free quote */
 .popup_header {
-  background-color: green;
+  /* background-color: green; */
   padding: 2rem;
-  color:white;
+  /* color:white; */
   margin:0;
+  background-color: rgb(158,215,231);
 }
 /* form  */
+form input{
+  
+  font-size: 16px;
+  border-radius: .5rem;
+  box-shadow: 2px 3px 3px #888888
+}
+/* select{
+  border: none;
+}
+.tel select option{
+  border: none;
+}
+
+input[type=text],[type="email"],[type="number"],[type="string"]{
+  border: none;
+}
+textarea[type=text]{
+  border: none;
+}
+textarea:focus{
+  border: 1px solid green;
+} */
+
+input:focus{
+  outline: none;
+ }
 .form_popup {
   transition:0.5s;
   padding: 1rem 2rem;
@@ -42,15 +69,20 @@ z-index:9999;
 color:black;
 font-size:1.4rem;
 }
-.fixedButton{
+div .fixedButton {
   position: fixed;
-right:-35px;  
+right:-40px;  
   background: green;
   color:white;
   padding:1rem 1.5rem;
   border:none;
   transform: rotate(-90deg);
   cursor:pointer;
+}
+
+div .fixedButton:hover{
+  background-color: green;
+  /* color:black; */
 }
 .blur{
   filter:blur(20px);

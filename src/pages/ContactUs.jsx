@@ -14,8 +14,8 @@ function ContactUs() {
         {/* <Navbar /> */}
        
         <Header />
-        <FixedButton />
-     {/* <FormDialog /> */}
+        {/* <FixedButton /> */}
+     <FormDialog />
         <Cards />
         <GetInTouch />
         {/* <Faq /> */}

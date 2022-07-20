@@ -12,14 +12,14 @@ function GetInTouch() {
     <div className="getInTouch_container">
       {/* <div className="header">
         <h1>Get in Touch </h1>
-        <p>Want to find out more about our company? Let's talk.</p>
+        
       </div> */}
       <div className="contact-us">
         <h3 className="git_contactus">CONTACT US</h3>
         <hr className="contactUs_hr" />
         <div className="contact-us-grid">
           <div className="form">
-            <h2>Fill up the form and our team will get back to you.</h2>
+            <p style={{fontSize:"1.5rem"}}>Fill up the form and our team will get back to you.</p>
 
             <input
               type="text"
