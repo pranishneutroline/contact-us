@@ -1,0 +1,125 @@
+.form-container {
+  /* max-width: 450px; */
+  width:42%;
+  height:100%;
+  margin: auto;
+  background-color: white;
+  position:fixed;
+  /* position: sticky; */
+ top:4px;
+ right:0;
+ left:0;
+ overflow-x:hidden;
+ overflow-y: scroll;
+ /* bottom:0; */
+  z-index:999;
+  /* margin: 1rem; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition:0.5s;
+}
+
+/* get a free quote */
+.popup_header {
+  background-color: green;
+  padding: 2rem;
+  color:white;
+  margin:0;
+}
+/* form  */
+.form_popup {
+  transition:0.5s;
+  padding: 1rem 2rem;
+border-radius:2rem;
+}
+.closeBtn {
+  cursor: pointer;
+  /* position: static; */
+  position: absolute;
+  top:15px;
+  left:92%;
+  bottom :0;
+z-index:9999;
+color:black;
+font-size:1.4rem;
+}
+.fixedButton{
+  position: fixed;
+right:-35px;  
+  background: green;
+  color:white;
+  padding:1rem 1.5rem;
+  border:none;
+  transform: rotate(-90deg);
+  cursor:pointer;
+}
+.blur{
+  filter:blur(20px);
+  pointer-events:none;
+  user-select: none;
+}
+input[type="number"]{
+  width : 75%;
+  margin-left:1rem;
+}
+.free-consultation{
+margin-top:1rem;
+
+}
+.org, .location, #selectService,.popup_textarea{
+  padding: 12px 20px;
+  margin: 8px 0;
+  border:1px solid black;
+}
+.org,.location{
+  width:48%;
+}
+.org{
+  margin-right:5px;
+}
+.location{
+  margin-left:10px;
+}
+#selectService{
+  width:100%;
+}
+.popup_file{
+display:none;
+}
+.popup_file_label{
+  display: block;
+  margin: 1rem 0; 
+  background-color: #bae6fd;
+  padding:.8rem;
+  width:7rem;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.popup_submit{
+  padding: 0.7rem 1.5rem;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  border-radius:10px;
+  border: none;
+  font-size:1rem;
+  width:100%;
+  outline:none;
+}
+.name,.email,.org,.location,.country,.phone,.popup_textarea{
+  transition: all 0 3s ease;
+}
+
+@media only screen and (max-width: 800px) {
+.form_popup{
+  padding:1rem;
+}
+.form-container{
+  width:70%;
+}
+ }
+ @media only screen and (max-width: 500px) {
+  .form-container{
+    width:90%;
+  }
+ }

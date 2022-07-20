@@ -1,0 +1,44 @@
+.list-style-none {
+  list-style: none;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* navbar */
+.navbar {
+  padding: 2rem 0;
+  border: 1px solid black;
+  /* display:none; */
+}
+.navlinks li {
+  margin-right: 3rem;
+}
+.navlinks {
+  justify-content: center;
+}
+.navlinks li a {
+  color: black;
+  font-size: 2rem;
+}
+/* .hamburger{
+    display:block;
+} */
+@media only screen and (max-width: 800px) {
+  .navlinks li a{
+    /* display: none;    */
+    font-size:.6rem;
+  }
+  .navbar .hamburger {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+    display: block;
+    z-index:999;
+  }
+}

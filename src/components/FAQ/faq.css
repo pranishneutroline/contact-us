@@ -1,0 +1,42 @@
+.wrapper{
+    /* background-color:green; */
+    /* width:50%; */
+    display:block;
+    text-align:center;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.faq{
+  width:80%;
+  /* background-color: skyblue; */
+  padding:5em 10em;
+  margin:2em;
+  display: inline-block;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  text-align: left;
+  border-radius: 20px;
+}
+.faq-card{
+  justify-content: space-between;
+}
+.faq-header{
+  font-size:2rem;
+}
+.toggle{
+  margin:1.6rem 0 0 1rem;
+}
+.faq-icons{
+  font-weight: bold;
+  cursor:pointer;
+}
+hr{
+  border-width:.5px;
+}
+@media only screen and (max-width: 800px) {
+ .faq{
+    padding:1em;
+ } 
+}
+
